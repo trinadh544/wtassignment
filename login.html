@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+	<script type="text/javascript">
+		function fun() {
+			var name=document.getElementById('name');
+			var pas=document.getElementById('pwd');
+			if (name=="chandu" && pas=="1234") {
+				aleert("login sucessfully");
+			} else {
+alert("login unsucessfully");
+			}
+		}
+	</script>
+	<script type="text/javascript" src="valid.js"></script>
+</head>
+<body bgcolor="grey"><center>
+	<form>
+		<label>Enter Username</label><br>
+		<input type="text" id="name" name="name"><br>
+		<label>Enter Password</label><br>
+		<input type="Password" id="pwd" name="pwd"><br>
+		<input type="Submit" onclick="fun()" value="submit"><br>
+		<a href="">Forgot the password?</a>
+		<a href="">Signin</a>
+			</form>
+		</center>
+
+</body>
+</html>
